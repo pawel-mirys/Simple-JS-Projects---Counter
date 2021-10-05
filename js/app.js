@@ -4,11 +4,7 @@ let count = 0;
 
 buttons.forEach((button) => {
   button.addEventListener('click', () => {
-    if (button.classList.contains('prevBtn')) {
-      count--;
-    } else {
-      count++;
-    }
+    button.classList.contains('prevBtn') ? count-- : count++;
     counter.textContent = count.toString();
     if (count > 0) {
       counter.classList.remove('red');
