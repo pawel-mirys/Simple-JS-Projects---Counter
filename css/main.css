@@ -4,12 +4,13 @@
   --mainBlue: #0d2c54;
   --lightBlue: #00a6ed;
   --mainBlack: #333333;
+  --mainRed: #d30707;
 }
 .max-height {
   min-height: 100vh;
 }
 body {
-  background: url("../img/mainBcg.jpeg") center/cover fixed no-repeat;
+  background: url('../img/mainBcg.jpeg') center/cover fixed no-repeat;
   color: var(--mainWhite);
 }
 .main-container {
@@ -33,4 +34,11 @@ body {
 }
 .nextBtn:hover {
   background: var(--lightBlue);
+}
+
+.green {
+  color: var(--mainGreen) !important;
+}
+.red {
+  color: var(--mainRed) !important;
 }
